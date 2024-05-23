@@ -2,3 +2,4 @@ wandb
 adjustText
 umap-learn
 pyfaidx
+# (optional) we experimented on torch==2.3.0+cu121 
