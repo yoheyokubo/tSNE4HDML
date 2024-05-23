@@ -7,7 +7,7 @@ bad_limit=0
 batch_size=128
 margin=1
 
-model_save_path="model_save_path_v7"
+model_save_path="model_save_path"
 device="cuda:0"
 CODE="code/train.py"
 
