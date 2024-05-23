@@ -16,20 +16,23 @@ pip install -r requirements.txt
 
 ## Training
 
-To train the model(s) in the paper, run this command:
+To train the model(s) in the paper, run this command for our method:
 
 ```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
+bash train_tsne.sh
 ```
+for HRMS:
 
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+```train
+bash train_hrms.sh
+```
 
 ## Evaluation
 
-To evaluate my model on ImageNet, run:
+To evaluate trained models, run:
 
 ```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
+bash eval.sh
 ```
 
 >📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
