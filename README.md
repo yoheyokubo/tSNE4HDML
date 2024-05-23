@@ -34,20 +34,15 @@ To evaluate trained models, run:
 ```eval
 bash eval.sh
 ```
-
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
+Please change the hyperparameter _model_checkpoint_ in the file according to which model you want to test: our method (tSNE) or HRMS.
 
 ## Pre-trained Models
 
-You can download pretrained models here:
-
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
-
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+Pretrained models (tSNE or HRMS) are in the checkpoint directory.
 
 ## Results
 
-Our model achieves the following performance on :
+Our model achieves the following performance:
 
 ### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
@@ -55,7 +50,7 @@ Our model achieves the following performance on :
 | ------------------ |---------------- | -------------- |
 | My awesome model   |     85%         |      95%       |
 
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
+>![tSNE4HDML_table.png](https://github.com/yoheyokubo/Images/blob/f33751e5a4c5f4910d15836a81e332f62ded444b/tSNE4HDML_table.png) 
 
 
 ## Contributing
