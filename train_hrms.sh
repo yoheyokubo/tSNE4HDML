@@ -1,8 +1,4 @@
 #!/bin/bash
-#$ -S /bin/bash
-#$ -cwd
-#$ -l v100=1,s_vmem=25G
-#$ -pe def_slot 4
 
 lr=1e-3
 lr_VQ=1e-3
@@ -13,7 +9,7 @@ margin=1
 
 model_save_path="model_save_path_v7"
 device="cuda:0"
-CODE="code_classification/train.py"
+CODE="code/train.py"
 
 kmer=6
 model="Encoder"
@@ -39,7 +35,6 @@ id2acc='data/host_accs.json'
 scientific_names='data/scientific_names.json'
 lineages='data/lineages.json'
 
-module load /usr/local/package/modulefiles/python/3.12.0
 python3 $CODE --model $model --model_backbone $model_backbone --model_dir $model_save_path --seed $seed --kmer $kmer --margin $margin \
     --device $device --lr $lr --lr_VQ $lr_VQ --epoch $epoch --batch_size $batch_size --latent_channels $latent_channels --latent_space $latent_space --gamma $gamma\
     --strategy_emd $strategy_emd --strategy_samp $strategy_samp --strategy_rank $strategy_rank --strategy_perp $strategy_perp \
