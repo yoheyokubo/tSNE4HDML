@@ -2,7 +2,6 @@
 
 This repository is the official implementation of [Deep Metric Learning for Hierarchical Structured Data with Stochastic Neighbor Embedding](https://arxiv.org/abs/2030.12345). 
 
->![tSNE4HDML_table.png](https://github.com/yoheyokubo/Images/blob/d19c58765efc6df9331875db66060c16031ead04/tSNE4HDML_table.png)
 >![tSNE4HDML_figure.png](https://github.com/yoheyokubo/Images/blob/f33751e5a4c5f4910d15836a81e332f62ded444b/tSNE4HDML_figure.png)
 
 ## Requirements
