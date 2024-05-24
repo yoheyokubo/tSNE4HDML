@@ -41,7 +41,7 @@ Please change the hyperparameter _model_checkpoint_ in the file according to whi
 
 ## Pre-trained Models
 
-Pretrained models (tSNE or HRMS) are in the checkpoint directory.
+Pretrained models (tSNE or HRMS) are included in the checkpoint directory.
 
 ## Results
 
