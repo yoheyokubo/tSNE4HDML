@@ -47,15 +47,11 @@ Pretrained models (tSNE or HRMS) are included in the checkpoint directory.
 
 Our model achieves the following performance:
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
-
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
-
 >![tSNE4HDML_table.png](https://github.com/yoheyokubo/Images/blob/f33751e5a4c5f4910d15836a81e332f62ded444b/tSNE4HDML_table.png) 
 
 
 ## Contributing
 
->📋  Pick a licence and describe how to contribute to your code repository. 
+If you'd like to contribute, or have any suggestions for these guidelines, you can open an issue on this GitHub repository.
+
+All contributions welcome! All content in this repository is licensed under the MIT license.
