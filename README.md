@@ -13,6 +13,7 @@ pip install -r requirements.txt
 ```
 
 >📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+> +![host.fasta](https://zenodo.org/records/11274359?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjEwZjZjM2VlLTYxZmEtNDc4ZS1hNTYzLWQyM2MwZGViNmZlNSIsImRhdGEiOnt9LCJyYW5kb20iOiI3ZDE3NTc4NDRiMTBjMDE0YTZkYWQ5NjkxNWY2ODMzMyJ9.RS_BeK2CtnkHV5JCExY4R0zp5I8NoRBA4fqISqcmHNUZOBtfSMjECCBsto5CB7rUoM6A053nHlWwHHzXhotVhQ)
 
 ## Training
 
