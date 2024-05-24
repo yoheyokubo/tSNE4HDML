@@ -13,8 +13,9 @@ pip install -r requirements.txt
 ```
 
 > Our scripts can be run on a single GPU. As for the dataset, we offer several options:
-> -  If you do not care about the dataset and just want to run our scrips, please run script files (train_*.sh) because we uploaded preprocessed data.
-> -  If you are interested in how the preprocessed data was created, first download [host.fasta](https://zenodo.org/records/11274359) and locate it below our data directory. Next, erase
+> -  If you do not care about the dataset and just want to run our scripts, please run script files (train_*.sh) because we uploaded preprocessed data.
+> -  If you are interested in how the preprocessed data was created, please first download [host.fasta](https://zenodo.org/records/11274359) and locate it below our data directory. Next, erase parts related to *species_fcgr_np* in script files (train_*.sh).
+> -  If you are interested in how the original dataset (host.fasta) and meta information (*.json) were created, please see our notebook in the data directory.
 
 ## Training
 
