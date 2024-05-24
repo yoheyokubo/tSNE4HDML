@@ -12,8 +12,9 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
-> +![host.fasta](https://zenodo.org/records/11274359)
+> Our scripts can be run on a single GPU. As for the dataset, we offer several options:
+> -  If you do not care about the dataset and just want to run our scrips, please run script files (train_*.sh) because we uploaded preprocessed data.
+> -  If you are interested in how the preprocessed data was created, first download [host.fasta](https://zenodo.org/records/11274359) and locate it below our data directory. Next, erase
 
 ## Training
 
