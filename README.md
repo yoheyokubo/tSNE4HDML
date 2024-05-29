@@ -52,6 +52,6 @@ Our model achieves the following performance:
 
 ## Contributing
 
-If you'd like to contribute, or have any suggestions for these guidelines, you can open an issue on this GitHub repository.
+If you'd like to contribute, or have any suggestions or questions for this work, you can open an issue on this GitHub repository.
 
 All contributions welcome! All content in this repository is licensed under the MIT license.
